@@ -48,3 +48,5 @@ console.log( 'shoeCount equals:', me.shoeCount );
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+me.favoriteColor = 'Blue';
+console.log( 'favoriteColor equals:', me.favoriteColor );
