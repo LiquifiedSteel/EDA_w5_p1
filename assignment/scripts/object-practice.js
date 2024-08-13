@@ -30,8 +30,8 @@ console.log( 'fullName is:', fullName )
   - Console.log your first favorite food
   - Console.log your last favorite food 
 */
-
-
+console.log( 'First favorite food is ', me.favThreeFoods[0] );
+console.log( 'Third favorite food is ', me.favThreeFoods[2] );
 
 /* 4. Change a property of an existing object.
   - Console.log your current shoe count.
@@ -39,8 +39,9 @@ console.log( 'fullName is:', fullName )
   - Set your object's shoeCount to be what it was plus 1
   - Console.log your updated shoe count. 
 */
-
-
+console.log( 'shoeCount equals:', me.shoeCount );
+me.shoeCount += 1;
+console.log( 'shoeCount equals:', me.shoeCount );
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
   - Do this the same way you updated the variable above
